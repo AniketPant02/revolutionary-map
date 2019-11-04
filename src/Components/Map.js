@@ -37,13 +37,15 @@ class Map extends React.Component {
                 if (hoverType === "path") {
                     message.push("Location Order: " + hoveredObject.LOCATION_ORDER);
                     message.push(<br></br>);
-                    message.push("Part, Chapter: " + hoveredObject.PART + ", " + hoveredObject.CHAPTER);
-                    message.push(<br></br>);
                     message.push("On the path for: " + hoveredObject.LOCATION_NAME);
+                    message.push(<br></br>);
+                    message.push("Part, Chapter: " + hoveredObject.PART + ", " + hoveredObject.CHAPTER);
                     message.push(<br></br>);
                 }
                 else if (hoverType === "point") {
-                    message.push("Location Order:" + hoveredObject.LOCATION_ORDER);
+                    message.push("Location: " + hoveredObject.LOCATION_NAME);
+                    message.push(<br></br>);
+                    message.push("Location Order: " + hoveredObject.LOCATION_ORDER);
                     message.push(<br></br>);
                     message.push("Part, Chapter: " + hoveredObject.PART + ", " + hoveredObject.CHAPTER);
                     message.push(<br></br>);
@@ -55,9 +57,9 @@ class Map extends React.Component {
             }
             else if (human === "obregon" || human === "villa") {
                 if (hoverType === "path") {
-                    message.push("Location Order: " + hoveredObject.LOCATION_ORDER);
+                    message.push("On the path for: " + hoveredObject.LOCATION_NAME);
                     message.push(<br></br>);
-                    message.push("On the road to: " + hoveredObject.LOCATION_NAME);
+                    message.push("Location Order: " + hoveredObject.LOCATION_ORDER);
                     message.push(<br></br>);
                 }
                 else {
