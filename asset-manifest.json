@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AniketPant02/revolutionary-map/static/css/main.3d4cf525.chunk.css",
+    "main.js": "/AniketPant02/revolutionary-map/static/js/main.eb0f332e.chunk.js",
+    "main.js.map": "/AniketPant02/revolutionary-map/static/js/main.eb0f332e.chunk.js.map",
+    "runtime-main.js": "/AniketPant02/revolutionary-map/static/js/runtime-main.36bc0bcc.js",
+    "runtime-main.js.map": "/AniketPant02/revolutionary-map/static/js/runtime-main.36bc0bcc.js.map",
+    "static/js/2.72ec6d5a.chunk.js": "/AniketPant02/revolutionary-map/static/js/2.72ec6d5a.chunk.js",
+    "static/js/2.72ec6d5a.chunk.js.map": "/AniketPant02/revolutionary-map/static/js/2.72ec6d5a.chunk.js.map",
+    "index.html": "/AniketPant02/revolutionary-map/index.html",
+    "precache-manifest.efacf353d7758abf1d441a5ca0e25e38.js": "/AniketPant02/revolutionary-map/precache-manifest.efacf353d7758abf1d441a5ca0e25e38.js",
+    "service-worker.js": "/AniketPant02/revolutionary-map/service-worker.js",
+    "static/css/main.3d4cf525.chunk.css.map": "/AniketPant02/revolutionary-map/static/css/main.3d4cf525.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36bc0bcc.js",
+    "static/js/2.72ec6d5a.chunk.js",
+    "static/css/main.3d4cf525.chunk.css",
+    "static/js/main.eb0f332e.chunk.js"
+  ]
+}
