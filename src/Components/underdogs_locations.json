@@ -1,0 +1,182 @@
+[
+    {
+        "LOCATION_ORDER": "1",
+        "LOCATION_NAME": "Limón",
+        "CHAPTER": 1,
+        "PART": 1,
+        "QUOTE": "So this is Limon? Land of the famous Demetrio Macias! Didya hear that, Lieutenant? We're in Limon.",
+        "COMMENTARY": "Hacienda soldiers trying to find Demetrio.",
+        "coordinates": [
+            -103.160792,
+            21.101122
+        ]
+    },
+    {
+        "LOCATION_ORDER": "2",
+        "LOCATION_NAME": "Village",
+        "CHAPTER": 4,
+        "PART": 1,
+        "QUOTE": "They sopped and took their rest at every small hut they found aong the way, always tucked into the craggy boulders of the Sierra.",
+        "COMMENTARY": "Take rest at a village for Demetrio to heal.",
+        "coordinates": [
+            -103.121805,
+            21.35951
+        ]
+    },
+    {
+        "LOCATION_ORDER": "3",
+        "LOCATION_NAME": "Jerez",
+        "CHAPTER": 15,
+        "PART": 1,
+        "QUOTE": "'I'm headin' to town, bringin' alfalfa for my cow.' 'How many Federales in town?'",
+        "COMMENTARY": "Demetrio and his men come across a town with a Cathedral at the center, expecting a few Federales but end up being ambushed.",
+        "coordinates": [
+            -102.8687,
+            23.1778
+        ]
+    },
+    {
+        "LOCATION_ORDER": "4",
+        "LOCATION_NAME": "Fresnillo",
+        "CHAPTER": 18,
+        "PART": 1,
+        "QUOTE": "Demetrio arrived in Fresnillo with a hundred men the same day that Panfilo Natera was commencing his advance on the plaza of Zacatecas with his forces.",
+        "COMMENTARY": "Enter Fresnillo after attack in Alleged Jerez.",
+        "coordinates": [
+            -102.984717,
+            22.640855
+        ]
+    },
+    {
+        "LOCATION_ORDER": "5",
+        "LOCATION_NAME": "Zacatecas",
+        "CHAPTER": 19,
+        "PART": 1,
+        "QUOTE": "It was with amazement that the inhabitants of Fresnillo learned that the rebel attack on Zacatecas had failed completely",
+        "COMMENTARY": "Demetrio returns from his failed attack on Zacatecas with General Natera's forces.",
+        "coordinates": [
+            -102.562328,
+            22.780069
+        ]
+    },
+    {
+        "LOCATION_ORDER": "6",
+        "LOCATION_NAME": "Cerro de la Bufa",
+        "CHAPTER": 21,
+        "PART": 1,
+        "QUOTE": "From where they stood atop the hill, they had a clier view of one side of the Cerro de la Bufa, its crest set agaisnt the sky like the plumed head of a lofty Aztec king.",
+        "COMMENTARY": "The revolutionary soldiers are preparing to launch an invasion in the area.",
+        "coordinates": [
+            -102.5866,
+            22.7642
+        ]
+    },
+    {
+        "LOCATION_ORDER": "7",
+        "LOCATION_NAME": "Moyahua",
+        "CHAPTER": 5,
+        "PART": 2,
+        "QUOTE": "… They made their entrance into Moyahua …",
+        "COMMENTARY": "Where they raid the home of Don Monico",
+        "coordinates": [
+            -102.58289,
+            22.796426
+        ]
+    },
+    {
+        "LOCATION_ORDER": "8",
+        "LOCATION_NAME": "Tepatitlan",
+        "CHAPTER": 11,
+        "PART": 2,
+        "QUOTE": "Well mate, we're almost to Guadalajara, Venancio said, glancing over the smiling row of houses in Tepatitlan against the hillside",
+        "COMMENTARY": "After a long joruney, Demetrio and his men reach their temporary destination.",
+        "coordinates": [
+            -103.1651,
+            21.2656
+        ]
+    },
+    {
+        "LOCATION_ORDER": "9",
+        "LOCATION_NAME": "Cuquio",
+        "CHAPTER": 12,
+        "PART": 2,
+        "QUOTE": "In Cuquio Demetrio received a message",
+        "COMMENTARY": "Demetrio receives orders via a courier.",
+        "coordinates": [
+            -102.7652,
+            20.8098
+        ]
+    },
+    {
+        "LOCATION_ORDER": "10",
+        "LOCATION_NAME": "Lagos",
+        "CHAPTER": 12,
+        "PART": 2,
+        "QUOTE": "At last they reached Lagos.",
+        "COMMENTARY": "After travelling across the Sierra, they reach the assigned location of Lagos",
+        "coordinates": [
+            -103.023,
+            20.9276
+        ]
+    },
+    {
+        "LOCATION_ORDER": "11",
+        "LOCATION_NAME": "Aguascalientes",
+        "CHAPTER": 14,
+        "PART": 2,
+        "QUOTE": "The streets in Aguascalientes were so many refuse piles.",
+        "COMMENTARY": "This is where the revolutionaries go to elect a new Provisional President",
+        "coordinates": [
+            -101.9291,
+            21.3635
+        ]
+    },
+    {
+        "LOCATION_ORDER": "12",
+        "LOCATION_NAME": "Huts / Ranches in the Sierra",
+        "CHAPTER": 1,
+        "PART": 3,
+        "QUOTE": "At noon they reached a hut, clinging to the precipitous sierra, then three more huts strewn over the margin of a river of burnt sand.",
+        "COMMENTARY": "Demetrio's men pass through these huts and ranches on their way to Juchipila",
+        "coordinates": [
+            -102.2916,
+            21.8853
+        ]
+    },
+    {
+        "LOCATION_ORDER": "13",
+        "LOCATION_NAME": "Juchipila",
+        "CHAPTER": 4,
+        "PART": 3,
+        "QUOTE": "Juchipila rose in the distance, white, bathed in sunlight, shining in the midst of a thick forest at the foot of a proud, lofty mountain, pleated like a turban.",
+        "COMMENTARY": "Demetrio's men return to the 'cradle of the revolution,' but find the city a desolate place where they are unwelcome",
+        "coordinates": [
+            -102.848448,
+            21.487027
+        ]
+    },
+    {
+        "LOCATION_ORDER": "14",
+        "LOCATION_NAME": "Tepic",
+        "CHAPTER": 5,
+        "PART": 3,
+        "QUOTE": "Juchipila, like the other towns they had passed through on their way from Tepic, […] was in ruins",
+        "COMMENTARY": "",
+        "coordinates": [
+            -103.1175,
+            21.4121
+        ]
+    },
+    {
+        "LOCATION_ORDER": "15",
+        "LOCATION_NAME": "Sierra",
+        "CHAPTER": 7,
+        "PART": 3,
+        "QUOTE": "'In this same sierra,' Demetrio said, 'with but twenty men I killed five hundred Federals'",
+        "COMMENTARY": "The final scene of the novel where Demetrio's men are ambushed by hundreds of gunmen",
+        "coordinates": [
+            -104.8946,
+            21.5042
+        ]
+    }
+]

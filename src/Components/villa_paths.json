@@ -1,0 +1,242 @@
+[
+    {
+        "start": [
+            -109.9481,
+            31.3354
+        ],
+        "end": [
+            -109.9481,
+            31.3354
+        ],
+        "LOCATION_NAME": "Naco",
+        "LOCATION_ORDER": "1"
+    },
+    {
+        "start": [
+            -107.9976,
+            31.0903
+        ],
+        "end": [
+            -107.9976,
+            31.0903
+        ],
+        "LOCATION_NAME": "Ascensión",
+        "LOCATION_ORDER": "1"
+    },
+    {
+        "start": [
+            -109.9481,
+            31.3354
+        ],
+        "end": [
+            -109.9481,
+            31.3354
+        ],
+        "LOCATION_NAME": "Casas Grandes",
+        "LOCATION_ORDER": "2"
+    },
+    {
+        "start": [
+            -107.9976,
+            31.0903
+        ],
+        "end": [
+            -106.4783,
+            31.3414
+        ],
+        "LOCATION_NAME": "Samalayuca",
+        "LOCATION_ORDER": "2"
+    },
+    {
+        "start": [
+            -107.9976,
+            31.0903
+        ],
+        "end": [
+            -111.7734,
+            32.911
+        ],
+        "LOCATION_NAME": "Chihuahua",
+        "LOCATION_ORDER": "3"
+    },
+    {
+        "start": [
+            -109.9481,
+            31.3354
+        ],
+        "end": [
+            -106.4783,
+            31.3414
+        ],
+        "LOCATION_NAME": "Bustillos",
+        "LOCATION_ORDER": "3"
+    },
+    {
+        "start": [
+            -111.7734,
+            32.911
+        ],
+        "end": [
+            -106.0691,
+            28.633
+        ],
+        "LOCATION_NAME": "Ojinaga",
+        "LOCATION_ORDER": "4"
+    },
+    {
+        "start": [
+            -106.4783,
+            31.3414
+        ],
+        "end": [
+            -106.7843,
+            28.509
+        ],
+        "LOCATION_NAME": "San Lorenzo",
+        "LOCATION_ORDER": "4"
+    },
+    {
+        "start": [
+            -107.9976,
+            31.0903
+        ],
+        "end": [
+            -106.7843,
+            28.509
+        ],
+        "LOCATION_NAME": "San Lorenzo",
+        "LOCATION_ORDER": "4"
+    },
+    {
+        "start": [
+            -106.7843,
+            28.509
+        ],
+        "end": [
+            -104.4083,
+            29.5459
+        ],
+        "LOCATION_NAME": "Jiménez",
+        "LOCATION_ORDER": "5"
+    },
+    {
+        "start": [
+            -104.4083,
+            29.5459
+        ],
+        "end": [
+            -103.4859,
+            25.5891
+        ],
+        "LOCATION_NAME": "Gómez Palacio",
+        "LOCATION_ORDER": "6"
+    },
+    {
+        "start": [
+            -111.7734,
+            32.911
+        ],
+        "end": [
+            -102.9839,
+            25.7572
+        ],
+        "LOCATION_NAME": "San Pedro de Las Colonias",
+        "LOCATION_ORDER": "6"
+    },
+    {
+        "start": [
+            -102.9839,
+            25.7572
+        ],
+        "end": [
+            -100.9337,
+            25.9475
+        ],
+        "LOCATION_NAME": "Paredón",
+        "LOCATION_ORDER": "7"
+    },
+    {
+        "start": [
+            -100.9337,
+            25.9475
+        ],
+        "end": [
+            -100.9737,
+            25.4383
+        ],
+        "LOCATION_NAME": "Saltillo",
+        "LOCATION_ORDER": "8"
+    },
+    {
+        "start": [
+            -100.9737,
+            25.4383
+        ],
+        "end": [
+            -103.4068,
+            25.5428
+        ],
+        "LOCATION_NAME": "Torreón",
+        "LOCATION_ORDER": "9"
+    },
+    {
+        "start": [
+            -103.4068,
+            25.5428
+        ],
+        "end": [
+            -103.5339,
+            25.5382
+        ],
+        "LOCATION_NAME": "Lerdo",
+        "LOCATION_ORDER": "10"
+    },
+    {
+        "start": [
+            -103.5339,
+            25.5382
+        ],
+        "end": [
+            -103.6972,
+            24.8684
+        ],
+        "LOCATION_NAME": "Cuencamé",
+        "LOCATION_ORDER": "11"
+    },
+    {
+        "start": [
+            -103.6972,
+            24.8684
+        ],
+        "end": [
+            -103.02,
+            23.9934
+        ],
+        "LOCATION_NAME": "Nieves",
+        "LOCATION_ORDER": "12"
+    },
+    {
+        "start": [
+            -103.02,
+            23.9934
+        ],
+        "end": [
+            -102.8687,
+            23.1778
+        ],
+        "LOCATION_NAME": "Fresnillo",
+        "LOCATION_ORDER": "13"
+    },
+    {
+        "start": [
+            -102.8687,
+            23.1778
+        ],
+        "end": [
+            -102.5832,
+            22.7709
+        ],
+        "LOCATION_NAME": "Zacatecas",
+        "LOCATION_ORDER": "14"
+    }
+]

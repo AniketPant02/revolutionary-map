@@ -1,0 +1,242 @@
+[
+    {
+        "start": [
+            -110.9343,
+            31.3404
+        ],
+        "end": [
+            -110.9343,
+            31.3404
+        ],
+        "LOCATION_NAME": "Nogales",
+        "LOCATION_ORDER": "1"
+    },
+    {
+        "start": [
+            -110.9343,
+            31.3404
+        ],
+        "end": [
+            -109.9481,
+            31.3354
+        ],
+        "LOCATION_NAME": "Naco",
+        "LOCATION_ORDER": "2"
+    },
+    {
+        "start": [
+            -109.9481,
+            31.3354
+        ],
+        "end": [
+            -110.2892,
+            30.9898
+        ],
+        "LOCATION_NAME": "Cananea",
+        "LOCATION_ORDER": "3"
+    },
+    {
+        "start": [
+            -110.2892,
+            30.9898
+        ],
+        "end": [
+            -110.9559,
+            29.073
+        ],
+        "LOCATION_NAME": "Hermosillo",
+        "LOCATION_ORDER": "4"
+    },
+    {
+        "start": [
+            -110.9559,
+            29.073
+        ],
+        "end": [
+            -110.9343,
+            31.3404
+        ],
+        "LOCATION_NAME": "Nogales",
+        "LOCATION_ORDER": "5"
+    },
+    {
+        "start": [
+            -110.9343,
+            31.3404
+        ],
+        "end": [
+            -104.6825,
+            34.9387
+        ],
+        "LOCATION_NAME": "Santa Rosa",
+        "LOCATION_ORDER": "5"
+    },
+    {
+        "start": [
+            -104.6825,
+            34.9387
+        ],
+        "end": [
+            -110.9089,
+            27.9179
+        ],
+        "LOCATION_NAME": "Guaymas",
+        "LOCATION_ORDER": "6"
+    },
+    {
+        "start": [
+            -110.9089,
+            27.9179
+        ],
+        "end": [
+            -108.9413,
+            27.0255
+        ],
+        "LOCATION_NAME": "Alamos",
+        "LOCATION_ORDER": "7"
+    },
+    {
+        "start": [
+            -108.9413,
+            27.0255
+        ],
+        "end": [
+            -108.0776,
+            25.4587
+        ],
+        "LOCATION_NAME": "Guamúchil",
+        "LOCATION_ORDER": "8"
+    },
+    {
+        "start": [
+            -108.0776,
+            25.4587
+        ],
+        "end": [
+            -107.394,
+            24.8091
+        ],
+        "LOCATION_NAME": "Culiacán",
+        "LOCATION_ORDER": "9"
+    },
+    {
+        "start": [
+            -107.394,
+            24.8091
+        ],
+        "end": [
+            -106.4,
+            23.642
+        ],
+        "LOCATION_NAME": "Piaxtla",
+        "LOCATION_ORDER": "10"
+    },
+    {
+        "start": [
+            -106.4,
+            23.642
+        ],
+        "end": [
+            -106.4111,
+            23.2494
+        ],
+        "LOCATION_NAME": "Mazatlán",
+        "LOCATION_ORDER": "11"
+    },
+    {
+        "start": [
+            -106.4111,
+            23.2494
+        ],
+        "end": [
+            -105.3609,
+            22.4937
+        ],
+        "LOCATION_NAME": "Acaponeta",
+        "LOCATION_ORDER": "12"
+    },
+    {
+        "start": [
+            -105.3609,
+            22.4937
+        ],
+        "end": [
+            -104.8946,
+            21.5042
+        ],
+        "LOCATION_NAME": "Tepic",
+        "LOCATION_ORDER": "13"
+    },
+    {
+        "start": [
+            -104.8946,
+            21.5042
+        ],
+        "end": [
+            -103.8471,
+            20.88
+        ],
+        "LOCATION_NAME": "Orendain",
+        "LOCATION_ORDER": "14"
+    },
+    {
+        "start": [
+            -103.8471,
+            20.88
+        ],
+        "end": [
+            -103.3496,
+            20.6597
+        ],
+        "LOCATION_NAME": "Guadalajara",
+        "LOCATION_ORDER": "15"
+    },
+    {
+        "start": [
+            -103.3496,
+            20.6597
+        ],
+        "end": [
+            -104.0072,
+            19.1223
+        ],
+        "LOCATION_NAME": "Colima",
+        "LOCATION_ORDER": "16"
+    },
+    {
+        "start": [
+            -104.0072,
+            19.1223
+        ],
+        "end": [
+            -104.3385,
+            19.1138
+        ],
+        "LOCATION_NAME": "Manzanillo",
+        "LOCATION_ORDER": "17"
+    },
+    {
+        "start": [
+            -104.3385,
+            19.1138
+        ],
+        "end": [
+            -103.3496,
+            20.6597
+        ],
+        "LOCATION_NAME": "Guadalajara",
+        "LOCATION_ORDER": "18"
+    },
+    {
+        "start": [
+            -103.3496,
+            20.6597
+        ],
+        "end": [
+            -99.1758,
+            19.7486
+        ],
+        "LOCATION_NAME": "Teoloyucan",
+        "LOCATION_ORDER": "19"
+    }
+]

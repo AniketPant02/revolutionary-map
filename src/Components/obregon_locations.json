@@ -1,0 +1,22 @@
+[
+    {"LOCATION_ORDER": "1", "LOCATION_NAME": "Nogales", "coordinates": [-110.9343, 31.3404]},
+    {"LOCATION_ORDER": "2", "LOCATION_NAME": "Naco", "coordinates": [-109.9481, 31.3354]},
+    {"LOCATION_ORDER": "3", "LOCATION_NAME": "Cananea", "coordinates": [-110.2892, 30.9898]},
+    {"LOCATION_ORDER": "4", "LOCATION_NAME": "Hermosillo", "coordinates": [-110.9559, 29.073]},
+    {"LOCATION_ORDER": "5", "LOCATION_NAME": "Nogales", "coordinates": [-110.9343, 31.3404]},
+    {"LOCATION_ORDER": "5", "LOCATION_NAME": "Santa Rosa", "coordinates": [-104.6825, 34.9387]},
+    {"LOCATION_ORDER": "6", "LOCATION_NAME": "Guaymas", "coordinates": [-110.9089, 27.9179]},
+    {"LOCATION_ORDER": "7", "LOCATION_NAME": "Alamos", "coordinates": [-108.9413, 27.0255]},
+    {"LOCATION_ORDER": "8", "LOCATION_NAME": "Guamúchil", "coordinates": [-108.0776, 25.4587]},
+    {"LOCATION_ORDER": "9", "LOCATION_NAME": "Culiacán", "coordinates": [-107.394, 24.8091]},
+    {"LOCATION_ORDER": "10", "LOCATION_NAME": "Piaxtla", "coordinates": [-106.4, 23.642]},
+    {"LOCATION_ORDER": "11", "LOCATION_NAME": "Mazatlán", "coordinates": [-106.4111, 23.2494]},
+    {"LOCATION_ORDER": "12", "LOCATION_NAME": "Acaponeta", "coordinates": [-105.3609, 22.4937]},
+    {"LOCATION_ORDER": "13", "LOCATION_NAME": "Tepic", "coordinates": [-104.8946, 21.5042]},
+    {"LOCATION_ORDER": "14", "LOCATION_NAME": "Orendain", "coordinates": [-103.8471, 20.88]},
+    {"LOCATION_ORDER": "15", "LOCATION_NAME": "Guadalajara", "coordinates": [-103.3496, 20.6597]},
+    {"LOCATION_ORDER": "16", "LOCATION_NAME": "Colima", "coordinates": [-104.0072, 19.1223]},
+    {"LOCATION_ORDER": "17", "LOCATION_NAME": "Manzanillo", "coordinates": [-104.3385, 19.1138]},
+    {"LOCATION_ORDER": "18", "LOCATION_NAME": "Guadalajara", "coordinates": [-103.3496, 20.6597]},
+    {"LOCATION_ORDER": "19", "LOCATION_NAME": "Teoloyucan", "coordinates": [-99.1758, 19.7486]}
+]

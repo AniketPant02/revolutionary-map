@@ -1,0 +1,117 @@
+[
+    {
+        "start": [-103.160792, 21.101122],
+        "end": [-103.121805, 21.35951],
+        "LOCATION_NAME": "Limón to Village",
+        "LOCATION_ORDER": 1,
+        "CHAPTER": 1,
+        "PART": 1
+    },
+    {
+        "start": [-103.121805, 21.35951],
+        "end": [-102.8687, 23.1778],
+        "LOCATION_NAME": "Village to Jerez",
+        "LOCATION_ORDER": 2,
+        "CHAPTER": 4,
+        "PART": 1
+    },
+    {
+        "start": [-102.8687, 23.1778],
+        "end": [-102.984717, 22.640855],
+        "LOCATION_NAME": "Jerez to Fresnillo",
+        "LOCATION_ORDER": 3,
+        "CHAPTER": 15,
+        "PART": 1
+    },
+    {
+        "start": [-102.984717, 22.640866],
+        "end": [-102.562328, 22.780069],
+        "LOCATION_NAME": "Fresnillo to Zacatecas",
+        "LOCATION_ORDER": 4,
+        "CHAPTER": 18,
+        "PART": 1
+    },
+
+    {
+        "start": [-102.562328, 22.780069],
+        "end": [-102.5866, 22.7642],
+        "LOCATION_NAME": "Zacatecas to Cerro de la Bufa",
+        "LOCATION_ORDER": 5,
+        "CHAPTER": 19,
+        "PART": 1
+    },
+    {
+        "start": [-102.5866, 22.7642],
+        "end": [-102.58289, 22.796426],
+        "LOCATION_NAME": "Cerro de la Bufa to Moyahua",
+        "LOCATION_ORDER": 6,
+        "CHAPTER": 21,
+        "PART": 1
+    },
+    {
+        "start": [-102.58289, 22.796426],
+        "end": [-103.1651, 21.2656],
+        "LOCATION_NAME": "Moyahua to Tepatitlan",
+        "LOCATION_ORDER": 7,
+        "CHAPTER": 5,
+        "PART": 2
+    },
+    {
+        "start": [-103.1651, 21.2656],
+        "end": [-102.7652, 20.8098],
+        "LOCATION_NAME": "Tepatitlan to Cuquio",
+        "LOCATION_ORDER": 8,
+        "CHAPTER": 11,
+        "PART": 2
+    },
+    {
+        "start": [-102.7652, 20.8098],
+        "end": [-103.023, 20.9276],
+        "LOCATION_NAME": "Cuquio to Lagos",
+        "LOCATION_ORDER": 9,
+        "CHAPTER": 12,
+        "PART": 2
+    },
+    {
+        "start": [-103.023, 20.9276],
+        "end": [-101.9291, 21.3635],
+        "LOCATION_NAME": "Lagos to Aguascalientes",
+        "LOCATION_ORDER": 10,
+        "CHAPTER": 12,
+        "PART": 2
+
+    },
+    {
+        "start": [-101.9291, 21.3635],
+        "end": [-102.2916, 21.8853],
+        "LOCATION_NAME": "Aguascalientes to Huts/Ranches in the Sierra",
+        "LOCATION_ORDER": 11,
+        "CHAPTER": 14,
+        "PART": 2
+
+    },
+    {
+        "start": [-102.2916, 21.8853],
+        "end": [-102.848448, 21.487027],
+        "LOCATION_NAME": "Huts/Ranches in the Sierra to Juchipila",
+        "LOCATION_ORDER": 12,
+        "CHAPTER": 1,
+        "PART": 3
+    },
+    {
+        "start": [-102.848448, 21.487027],
+        "end": [-104.8946, 21.5042],
+        "LOCATION_NAME": "Juchipila to Tepic",
+        "LOCATION_ORDER": 13,
+        "CHAPTER": 4,
+        "PART": 3
+    },
+    {
+        "start": [-104.8946, 21.5042],
+        "end": [-103.121805, 21.35951],
+        "LOCATION_NAME": "Tepic to Sierra",
+        "LOCATION_ORDER": 14,
+        "CHAPTER": 5,
+        "PART": 3
+    }    
+]

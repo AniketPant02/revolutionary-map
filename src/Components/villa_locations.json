@@ -1,0 +1,21 @@
+[
+    {"LOCATION_ORDER": "1", "LOCATION_NAME": "Naco", "coordinates": [-109.9481, 31.3354]},
+    {"LOCATION_ORDER": "1", "LOCATION_NAME": "Ascensión", "coordinates": [-107.9976, 31.0903]},
+    {"LOCATION_ORDER": "2", "LOCATION_NAME": "Casas Grandes", "coordinates": [-109.9481, 31.3354]},
+    {"LOCATION_ORDER": "2", "LOCATION_NAME": "Samalayuca", "coordinates": [-106.4783, 31.3414]},
+    {"LOCATION_ORDER": "3", "LOCATION_NAME": "Chihuahua", "coordinates": [-111.7734, 32.911]},
+    {"LOCATION_ORDER": "3", "LOCATION_NAME": "Bustillos", "coordinates": [-106.4783, 31.3414]},
+    {"LOCATION_ORDER": "4", "LOCATION_NAME": "Ojinaga", "coordinates": [-106.0691, 28.633]},
+    {"LOCATION_ORDER": "4", "LOCATION_NAME": "San Lorenzo", "coordinates": [-106.7843, 28.509]},
+    {"LOCATION_ORDER": "5", "LOCATION_NAME": "Jiménez", "coordinates": [-104.4083, 29.5459]},
+    {"LOCATION_ORDER": "6", "LOCATION_NAME": "Gómez Palacio", "coordinates": [-103.4859, 25.5891]},
+    {"LOCATION_ORDER": "6", "LOCATION_NAME": "San Pedro de Las Colonias", "coordinates": [-102.9839, 25.7572]},
+    {"LOCATION_ORDER": "7", "LOCATION_NAME": "Paredón", "coordinates": [-100.9337, 25.9475]},
+    {"LOCATION_ORDER": "8", "LOCATION_NAME": "Saltillo", "coordinates": [-100.9737, 25.4383]},
+    {"LOCATION_ORDER": "9", "LOCATION_NAME": "Torreón", "coordinates": [-103.4068, 25.5428]},
+    {"LOCATION_ORDER": "10", "LOCATION_NAME": "Lerdo", "coordinates": [-103.5339, 25.5382]},
+    {"LOCATION_ORDER": "11", "LOCATION_NAME": "Cuencamé", "coordinates": [-103.6972, 24.8684]},
+    {"LOCATION_ORDER": "12", "LOCATION_NAME": "Nieves", "coordinates": [-103.02, 23.9934]},
+    {"LOCATION_ORDER": "13", "LOCATION_NAME": "Fresnillo", "coordinates": [-102.8687, 23.1778]},
+    {"LOCATION_ORDER": "14", "LOCATION_NAME": "Zacatecas", "coordinates": [-102.5832, 22.7709]}
+]
