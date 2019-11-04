@@ -4,7 +4,7 @@ import { ScatterplotLayer, TextLayer, LineLayer } from '@deck.gl/layers';
 import { StaticMap } from 'react-map-gl';
 import "./Map.css";
 
-// data to be used for Scatterplotlayer
+// data to be used for Deck.gl layers
 import macias_data from './underdogs_locations.json';
 import macias_path_data from './underdogs_paths.json';
 import villa_path_data from './villa_paths.json';
@@ -26,10 +26,18 @@ const initialViewState = {
 
 
 class Map extends React.Component {
+    constructor(props, context) {
+        super(props, context);
+
+        this.state = {
+            maciasVisible: true,
+            villaVisible: true,
+            obregonVisible: true
+        };
+    };
 
     _renderTooltip() {
         const { path, hoveredObject, pointerX, pointerY, hoverType, human } = this.state || {};
-
 
         var message = [];
         try {
@@ -84,8 +92,38 @@ class Map extends React.Component {
         return toReturn;
     }
 
+    _opacityRender(human){
+        const { villaVisible, obregonVisible, maciasVisible } = this.state || {};
+        if (human === "macias") {
+            if (maciasVisible === true) {
+                return 1.0
+            }
+            else {
+                return 0.4
+            }
+        }
+        else if (human === "villa") {
+            if (villaVisible === true) {
+                return 1.0
+            }
+            else {
+                return 0.4
+            }
+        }
+        else if (human === "obregon") {
+            if (obregonVisible === true) {
+                return 1.0
+            }
+            else {
+                return 0.4
+            }
+        }
+    }
+
     render() {
+        const { villaVisible, obregonVisible, maciasVisible } = this.state || {};
         const layers = [
+            villaVisible &&
             new LineLayer({
                 id: 'villa-path',
                 data: villa_path_data,
@@ -103,6 +141,7 @@ class Map extends React.Component {
                     human: "villa"
                 })
             }),
+            obregonVisible &&
             new LineLayer({
                 id: 'obregon-path',
                 data: obregon_path_data,
@@ -120,6 +159,7 @@ class Map extends React.Component {
                     human: "obregon"
                 })
             }),
+            villaVisible &&
             new ScatterplotLayer({
                 id: 'villa-locations',
                 data: villa_location_data,
@@ -138,6 +178,7 @@ class Map extends React.Component {
                     human: "villa"
                 })
             }),
+            obregonVisible &&
             new ScatterplotLayer({
                 id: 'obregon-locations',
                 data: obregon_location_data,
@@ -156,6 +197,7 @@ class Map extends React.Component {
                     human: "obregon"
                 })
             }),
+            maciasVisible &&
             new ScatterplotLayer({
                 id: 'macias-locations',
                 data: macias_data,
@@ -174,6 +216,7 @@ class Map extends React.Component {
                     human: "macias"
                 })
             }),
+            maciasVisible &&
             new LineLayer({
                 id: 'macias-path',
                 data: macias_path_data,
@@ -191,6 +234,7 @@ class Map extends React.Component {
                     human: "macias"
                 })
             }),
+            obregonVisible &&
             new TextLayer({
                 id: 'obregon-locations-order-text',
                 data: obregon_location_data,
@@ -201,6 +245,7 @@ class Map extends React.Component {
                 getSize: 30,
                 getColor: [255, 255, 255]
             }),
+            villaVisible &&
             new TextLayer({
                 id: 'villa-locations-order-text',
                 data: villa_location_data,
@@ -211,6 +256,7 @@ class Map extends React.Component {
                 getSize: 30,
                 getColor: [255, 255, 255]
             }),
+            maciasVisible &&
             new TextLayer({
                 id: 'macias-locations-order-text',
                 data: macias_data,
@@ -222,7 +268,7 @@ class Map extends React.Component {
                 getColor: [255, 255, 255]
             })
         ];
-
+        let human = "";
         return (
             <div className="Map">
                 {/* Mr. Clayton, your comment is over there. */}
@@ -239,24 +285,32 @@ class Map extends React.Component {
                 <div className="controlPanel" style={{ width: 200, height: 150, alignContent: "left", display: "flex", flexDirection: 'column', fontFamily: 'serif', fontSize: 13 }}>
                     <div className="macias" style={{ display: "flex", flexDirection: "row", marginLeft: -55, marginTop: -15 }}>
                         <div className="maciasText">   <pre>Macías    </pre></div>
-                        <div className="maciasLegend">
-                            <div className="line blue">
-                                <div className="circle"></div>
+                        <div className="maciasLegend" onClick={e => 
+                            this.setState(prevState => ({
+                                maciasVisible: !prevState.maciasVisible
+                            }))
+                            }>
+                            <div className="line blue" style={{ opacity: this._opacityRender(human = "macias") }}>
+                                <div className="circle" ></div>
                             </div>
                         </div>
                     </div>
                     <div className="villa" style={{ display: "flex", flexDirection: "row", marginLeft: -55 }}>
                         <div className="villaText">    <pre>Villa     </pre></div>
-                        <div className="villaLegend">
-                            <div className="line green">
+                        <div className="villaLegend" onClick={e => this.setState(prevState => ({
+                            villaVisible: !prevState.villaVisible
+                        }))}>
+                            <div className="line green" style={{ opacity: this._opacityRender(human = "villa") }}>
                                 <div className="circle"></div>
                             </div>
                         </div>
                     </div>
                     <div className="obregon" style={{ display: "flex", flexDirection: "row", marginLeft: -55 }}>
                         <div className="obregonText">  <pre>Obregon   </pre></div>
-                        <div className="obregonLegend">
-                            <div className="line black">
+                        <div className="obregonLegend" onClick={e => this.setState(prevState => ({
+                                                                                        obregonVisible: !prevState.obregonVisible
+                                                                                        }))}>
+                            <div className="line black" style={{ opacity: this._opacityRender(human = "obregon") }}>
                                 <div className="circle"></div>
                             </div>
                         </div>
