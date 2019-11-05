@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0574b9433498d4384b5815cf64a596fd",
+    "revision": "14527d72aaeac52333a22048955565e7",
     "url": "/revolutionary-map/index.html"
   },
   {
-    "revision": "a751bc22c0cd4b39249c",
+    "revision": "a3d494250121f65def6f",
     "url": "/revolutionary-map/static/css/main.1c6af029.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revolutionary-map/static/js/2.ccbbfbfc.chunk.js"
   },
   {
-    "revision": "a751bc22c0cd4b39249c",
-    "url": "/revolutionary-map/static/js/main.c1dde762.chunk.js"
+    "revision": "a3d494250121f65def6f",
+    "url": "/revolutionary-map/static/js/main.25bc2e10.chunk.js"
   },
   {
     "revision": "d2f2aaa13076b25e5f49",
