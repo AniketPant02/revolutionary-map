@@ -3,6 +3,7 @@ import DeckGL from '@deck.gl/react';
 import { ScatterplotLayer, TextLayer, LineLayer } from '@deck.gl/layers';
 import { StaticMap } from 'react-map-gl';
 import "./Map.css";
+import { HashRouter, Route, Link } from "react-router-dom";
 
 // data to be used for Deck.gl layers
 import macias_data from './underdogs_locations.json';
@@ -272,11 +273,9 @@ class Map extends React.Component {
         return (
             <div className="Map">
                 <div>
-                    <a href = "/about">
-                    <button className = "aboutBtn">
-                    About Us
-                    </button>
-                    </a>
+                    <Link to="/about">
+                        <button className = "aboutBtn">About Us</button>
+                    </Link>
                 </div>
                 {/* Mr. Clayton, your comment is over there. */}
                 <DeckGL
