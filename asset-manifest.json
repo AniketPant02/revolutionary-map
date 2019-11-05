@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/revolutionary-map/static/css/main.3d4cf525.chunk.css",
-    "main.js": "/revolutionary-map/static/js/main.11185ea5.chunk.js",
-    "main.js.map": "/revolutionary-map/static/js/main.11185ea5.chunk.js.map",
+    "main.css": "/revolutionary-map/static/css/main.1c6af029.chunk.css",
+    "main.js": "/revolutionary-map/static/js/main.8216d027.chunk.js",
+    "main.js.map": "/revolutionary-map/static/js/main.8216d027.chunk.js.map",
     "runtime-main.js": "/revolutionary-map/static/js/runtime-main.a8d59b05.js",
     "runtime-main.js.map": "/revolutionary-map/static/js/runtime-main.a8d59b05.js.map",
-    "static/js/2.68398370.chunk.js": "/revolutionary-map/static/js/2.68398370.chunk.js",
-    "static/js/2.68398370.chunk.js.map": "/revolutionary-map/static/js/2.68398370.chunk.js.map",
+    "static/js/2.d38899d4.chunk.js": "/revolutionary-map/static/js/2.d38899d4.chunk.js",
+    "static/js/2.d38899d4.chunk.js.map": "/revolutionary-map/static/js/2.d38899d4.chunk.js.map",
     "index.html": "/revolutionary-map/index.html",
-    "precache-manifest.3b16f6197e8d75c1ef7443528d881de1.js": "/revolutionary-map/precache-manifest.3b16f6197e8d75c1ef7443528d881de1.js",
+    "precache-manifest.611d4463e2f3c84c6284f5ebde20ef19.js": "/revolutionary-map/precache-manifest.611d4463e2f3c84c6284f5ebde20ef19.js",
     "service-worker.js": "/revolutionary-map/service-worker.js",
-    "static/css/main.3d4cf525.chunk.css.map": "/revolutionary-map/static/css/main.3d4cf525.chunk.css.map"
+    "static/css/main.1c6af029.chunk.css.map": "/revolutionary-map/static/css/main.1c6af029.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.a8d59b05.js",
-    "static/js/2.68398370.chunk.js",
-    "static/css/main.3d4cf525.chunk.css",
-    "static/js/main.11185ea5.chunk.js"
+    "static/js/2.d38899d4.chunk.js",
+    "static/css/main.1c6af029.chunk.css",
+    "static/js/main.8216d027.chunk.js"
   ]
 }
