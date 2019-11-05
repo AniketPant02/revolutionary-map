@@ -273,7 +273,7 @@ class Map extends React.Component {
         return (
             <div className="Map">
                 <div>
-                    <Link to="/about">
+                    <Link to={process.env.PUBLIC_URL + "/about"}>
                         <button className = "aboutBtn">About Us</button>
                     </Link>
                 </div>
