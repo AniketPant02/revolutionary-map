@@ -271,6 +271,13 @@ class Map extends React.Component {
         let human = "";
         return (
             <div className="Map">
+                <div>
+                    <a href = "/about">
+                    <button className = "aboutBtn">
+                    About Us
+                    </button>
+                    </a>
+                </div>
                 {/* Mr. Clayton, your comment is over there. */}
                 <DeckGL
                     initialViewState={initialViewState}
