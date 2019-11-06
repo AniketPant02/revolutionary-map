@@ -38,17 +38,18 @@ export default function About() { // no state needed so functional component use
                         }
                     >
                         <Meta
-                            avatar={<Avatar src={team_comp} />}
                             title="JCIB ForensX"
-                            description="Team excerpt needs polishing"
-                        />
+                            description="The JCIB ForensX team was founded in 2017 as a school team housed at the Jefferson County International Baccalaureate (JCIB) school.
+                            After recognizing a lack of Computer Science-focused extracurricular activities at the JCIB program, the team formed with the directive of increasing Computer Science engagement within the student body.
+                            The ForensX team looks to leverage emerging technology for the positive development of our community."
+  />
                     </Card>
                 </Col>
                 <Col span={12}
                     style={
                         {
                             padding: 10,
-                            width: 400,
+                            width: 900,
                             height: 800
                         }
                     }>
@@ -63,7 +64,7 @@ export default function About() { // no state needed so functional component use
                                 hoverable={true}
                                 cover={
                                     <img
-                                        alt="example"
+                                        alt="Aniket Pant"
                                         src={aniket_solo}
                                     />
                                 }
@@ -75,7 +76,7 @@ export default function About() { // no state needed so functional component use
                                 <Meta
                                     avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
                                     title="Aniket Pant"
-                                    description="UT Austin Reject"
+                                    description="Data Analytics and Visualization"
                                 />
                             </Card>
                         </Col>
@@ -101,7 +102,7 @@ export default function About() { // no state needed so functional component use
                                 <Meta
                                     avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
                                     title="Cole McKee"
-                                    description="Navy Academy Reject"
+                                    description="UI/UX, Web Development"
                                 />
                             </Card>
                         </Col>
@@ -155,7 +156,7 @@ export default function About() { // no state needed so functional component use
                                 <Meta
                                     avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
                                     title="Lonnie Webb"
-                                    description="MIT 3-time Reject"
+                                    description="Predictive Modeling"
                                 />
                             </Card>
                         </Col>
