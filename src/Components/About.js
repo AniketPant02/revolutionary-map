@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import { Card, Icon, Avatar } from 'antd';
+import { Card, Icon, Avatar, Row, Col } from 'antd';
 // image imports for team
 import team_comp from './images/about_us/team_comp.JPG';
 import aniket_solo from './images/about_us/aniket_solo.JPG';
@@ -12,129 +12,124 @@ import "./About.css";
 
 const { Meta } = Card;
 
-
-
-
 export default function About() { // no state needed so functional component used
     return (
         <div className="About">
-            <div className="team">
-                <div classNAme="teamComposite">
+            <div className="header">
+                <p>Meet the Team</p>
+            </div>
+            <Row>
+                <Col span={12}>
                     <Card
-                        style={{ width: 300 }}
+                        hoverable={true}
                         cover={
                             <img
                                 alt="example"
                                 src={team_comp}
                             />
                         }
-                        actions={[
-                            <Icon type="setting" key="setting" />,
-                            <Icon type="edit" key="edit" />,
-                            <Icon type="ellipsis" key="ellipsis" />,
-                        ]}
                     >
                         <Meta
-                            avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                            title="Card title"
-                            description="This is the description"
+                            avatar={<Avatar src={team_comp} />}
+                            title="JCIB ForensX"
+                            description="Team excerpt needs polishing"
                         />
                     </Card>
-                </div>
-                <div className="cardsContainer">
-                    <div className="aniketCard">
-                        <Card
-                            style={{ width: 300 }}
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={aniket_solo}
+                </Col>
+                <Col span={12}>
+                    <Row>
+                        <Col span={6}>
+                            <Card
+                                hoverable={true}
+                                cover={
+                                    <img
+                                        alt="example"
+                                        src={aniket_solo}
+                                    />
+                                }
+                                actions={[
+                                    <Icon type="setting" key="setting" />,
+                                    <Icon type="edit" key="edit" />,
+                                ]}
+                            >
+                                <Meta
+                                    avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
+                                    title="Aniket Pant"
+                                    description="UT Austin Reject"
                                 />
-                            }
-                            actions={[
-                                <Icon type="setting" key="setting" />,
-                                <Icon type="edit" key="edit" />,
-                                <Icon type="ellipsis" key="ellipsis" />,
-                            ]}
-                        >
-                            <Meta
-                                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                                title="Aniket Pant"
-                                description="Data Analyst and Engineer"
-                            />
-                        </Card>
-                    </div>
-                    <div className="coleCard">
-                        <Card
-                            style={{ width: 300 }}
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={cole_solo}
+                            </Card>
+                        </Col>
+                        <Col span={6}>
+                            <Card
+                                hoverable={true}
+                                cover={
+                                    <img
+                                        alt="example"
+                                        src={cole_solo}
+                                    />
+                                }
+                                actions={[
+                                    <Icon type="setting" key="setting" />,
+                                    <Icon type="edit" key="edit" />,
+                                ]}
+                            >
+                                <Meta
+                                    avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
+                                    title="Cole McKee"
+                                    description="Navy Academy Reject"
                                 />
-                            }
-                            actions={[
-                                <Icon type="setting" key="setting" />,
-                                <Icon type="edit" key="edit" />,
-                                <Icon type="ellipsis" key="ellipsis" />,
-                            ]}
-                        >
-                            <Meta
-                                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                                title="Cole McKee"
-                                description="UI/UX, Web Design"
-                            />
-                        </Card>
-                    </div>
-                    <div className="virajCard">
-                        <Card
-                            style={{ width: 300 }}
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={viraj_solo}
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col span={6}>
+                            <Card
+                                hoverable={true}
+                                cover={
+                                    <img
+                                        alt="example"
+                                        src={viraj_solo}
+                                    />
+                                }
+                                actions={[
+                                    <Icon type="setting" key="setting" />,
+                                    <Icon type="edit" key="edit" />,
+                                ]}
+                            >
+                                <Meta
+                                    avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
+                                    title="Viraj Kacker"
+                                    description="Arizona Plane Ticket Owner"
                                 />
-                            }
-                            actions={[
-                                <Icon type="setting" key="setting" />,
-                                <Icon type="edit" key="edit" />,
-                                <Icon type="ellipsis" key="ellipsis" />,
-                            ]}
-                        >
-                            <Meta
-                                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                                title="Viraj Kacker"
-                                description="UI/UX, Web Design"
-                            />
-                        </Card>
-                    </div>
-                    <div className="lonnieCard">
-                        <Card
-                            style={{ width: 300 }}
-                            cover={
-                                <img
-                                    alt="example"
-                                    src={viraj_solo}
+                            </Card>
+                        </Col>
+                        <Col span={6}>
+                            <Card
+                                hoverable={true}
+                                cover={
+                                    <img
+                                        alt="example"
+                                        src={lonnie_solo}
+                                    />
+                                }
+                                actions={[
+                                    <Icon type="setting" key="setting" />,
+                                    <Icon type="edit" key="edit" />,
+                                ]}
+                            >
+                                <Meta
+                                    avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
+                                    title="Lonnie Webb"
+                                    description="MIT 3-time Reject"
                                 />
-                            }
-                            actions={[
-                                <Icon type="setting" key="setting" />,
-                                <Icon type="edit" key="edit" />,
-                                <Icon type="ellipsis" key="ellipsis" />,
-                            ]}
-                        >
-                            <Meta
-                                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                                title="Lonnie Webb"
-                                description="Predictive Modeling"
-                            />
-                        </Card>
-                    </div>
-                </div>
-            </div>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
             <Link to={process.env.PUBLIC_URL + '/'}>
-                <button>Back to home page</button>
+                <button className="homeButton">Back to home page</button>
             </Link>
-        </div>
+        </div >
     )
 }
