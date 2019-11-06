@@ -19,7 +19,15 @@ export default function About() { // no state needed so functional component use
                 <p>Meet the Team</p>
             </div>
             <Row>
-                <Col span={12}>
+                <Col span={12}
+                    style={
+                        {
+                            padding: 10,
+                            width: 400,
+                            height: 800
+                        }
+                    }
+                >
                     <Card
                         hoverable={true}
                         cover={
@@ -36,10 +44,22 @@ export default function About() { // no state needed so functional component use
                         />
                     </Card>
                 </Col>
-                <Col span={12}>
+                <Col span={12}
+                    style={
+                        {
+                            padding: 10,
+                            width: 400,
+                            height: 800
+                        }
+                    }>
                     <Row>
                         <Col span={6}>
                             <Card
+                                style={
+                                    {
+                                        padding: 10
+                                    }
+                                }
                                 hoverable={true}
                                 cover={
                                     <img
@@ -61,6 +81,11 @@ export default function About() { // no state needed so functional component use
                         </Col>
                         <Col span={6}>
                             <Card
+                                style={
+                                    {
+                                        padding: 10
+                                    }
+                                }
                                 hoverable={true}
                                 cover={
                                     <img
@@ -84,6 +109,11 @@ export default function About() { // no state needed so functional component use
                     <Row>
                         <Col span={6}>
                             <Card
+                                style={
+                                    {
+                                        padding: 10
+                                    }
+                                }
                                 hoverable={true}
                                 cover={
                                     <img
@@ -105,6 +135,11 @@ export default function About() { // no state needed so functional component use
                         </Col>
                         <Col span={6}>
                             <Card
+                                style={
+                                    {
+                                        padding: 10
+                                    }
+                                }
                                 hoverable={true}
                                 cover={
                                     <img
