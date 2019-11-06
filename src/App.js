@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Map from './Components/Map';
 import About from './Components/About';
+import 'antd/dist/antd.css';
 
 
 class App extends Component {
