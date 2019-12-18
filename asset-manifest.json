@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/revolutionary-map/static/css/main.1c6af029.chunk.css",
-    "main.js": "/revolutionary-map/static/js/main.25bc2e10.chunk.js",
-    "main.js.map": "/revolutionary-map/static/js/main.25bc2e10.chunk.js.map",
+    "main.css": "/revolutionary-map/static/css/main.31bf86e0.chunk.css",
+    "main.js": "/revolutionary-map/static/js/main.4b12b2da.chunk.js",
+    "main.js.map": "/revolutionary-map/static/js/main.4b12b2da.chunk.js.map",
     "runtime-main.js": "/revolutionary-map/static/js/runtime-main.a8d59b05.js",
     "runtime-main.js.map": "/revolutionary-map/static/js/runtime-main.a8d59b05.js.map",
-    "static/js/2.ccbbfbfc.chunk.js": "/revolutionary-map/static/js/2.ccbbfbfc.chunk.js",
-    "static/js/2.ccbbfbfc.chunk.js.map": "/revolutionary-map/static/js/2.ccbbfbfc.chunk.js.map",
+    "static/css/2.7ececfe9.chunk.css": "/revolutionary-map/static/css/2.7ececfe9.chunk.css",
+    "static/js/2.f586e690.chunk.js": "/revolutionary-map/static/js/2.f586e690.chunk.js",
+    "static/js/2.f586e690.chunk.js.map": "/revolutionary-map/static/js/2.f586e690.chunk.js.map",
     "index.html": "/revolutionary-map/index.html",
-    "precache-manifest.c627352dea1a1c8b99618ad24c3e7b83.js": "/revolutionary-map/precache-manifest.c627352dea1a1c8b99618ad24c3e7b83.js",
+    "precache-manifest.8f31442607e93e661be654cd8b408882.js": "/revolutionary-map/precache-manifest.8f31442607e93e661be654cd8b408882.js",
     "service-worker.js": "/revolutionary-map/service-worker.js",
-    "static/css/main.1c6af029.chunk.css.map": "/revolutionary-map/static/css/main.1c6af029.chunk.css.map"
+    "static/css/2.7ececfe9.chunk.css.map": "/revolutionary-map/static/css/2.7ececfe9.chunk.css.map",
+    "static/css/main.31bf86e0.chunk.css.map": "/revolutionary-map/static/css/main.31bf86e0.chunk.css.map",
+    "static/media/aniket_solo.JPG": "/revolutionary-map/static/media/aniket_solo.1daa3bee.JPG",
+    "static/media/cole_solo.JPG": "/revolutionary-map/static/media/cole_solo.6bbedf2c.JPG",
+    "static/media/lonnie_solo.JPG": "/revolutionary-map/static/media/lonnie_solo.f4170753.JPG",
+    "static/media/team_comp.JPG": "/revolutionary-map/static/media/team_comp.7d567b09.JPG",
+    "static/media/viraj_solo.JPG": "/revolutionary-map/static/media/viraj_solo.518a301e.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.a8d59b05.js",
-    "static/js/2.ccbbfbfc.chunk.js",
-    "static/css/main.1c6af029.chunk.css",
-    "static/js/main.25bc2e10.chunk.js"
+    "static/css/2.7ececfe9.chunk.css",
+    "static/js/2.f586e690.chunk.js",
+    "static/css/main.31bf86e0.chunk.css",
+    "static/js/main.4b12b2da.chunk.js"
   ]
 }
